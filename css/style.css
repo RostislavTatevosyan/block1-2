@@ -8,7 +8,7 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-.header__title_color-accent, .header__offer_color-accent, .header__text_color-accent{
+.description__title_color-accent, .description__offer_color-accent, .description__text_color-accent{
   color: var(--color-accent);
 }
 
@@ -23,7 +23,7 @@ body{
 }
 
 
-.header__content{
+.description__content{
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -73,12 +73,13 @@ img .header__nav-item2{
   background-color: #FFC0CB;
 }
 
-.header__text-content{
+.description__text-content{
   display: flex;
   flex-direction: column;
+  margin-bottom: auto;
 }
 
-.header__title{
+.description__title{
   font-size: 18px;
   font-weight: 700;
   
@@ -88,16 +89,16 @@ img .header__nav-item2{
 
 }
 
-.header__img2 {
+.description__img2 {
   display: none;
 }
 
 
-.header__img img{
+.description__img img{
   width: 100%;
 }
 
-.header__offer{
+.description__offer{
   color: var(--color-dark);
   font-size: 12px;
   font-weight: 400;
@@ -106,11 +107,11 @@ img .header__nav-item2{
   
 }
 
-.header__offer .color-accent {
+.description__offer .color-accent {
   font-weight: 700;
 }
 
-.header__btn{
+.description__btn{
   display: block;
   text-align: center;
   border-radius: 5px;
@@ -133,7 +134,7 @@ color: #000;
 transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
- .header__text  {
+ .description__text  {
   color: var(--color-dark);
   text-align: center;
   font-size: 12px;
@@ -160,14 +161,14 @@ transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   justify-content: center;
 }
 
-.header__content{
+.description__content{
   
   flex-direction: row;
   flex-wrap: wrap;
   
 }
 
-  .header__title h1{
+  .description__title h1{
     font-size: 24px;
     width: 50%;
     margin-bottom: -16px;
@@ -175,11 +176,11 @@ transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   
   }
 
-  .header__offer{
+  .description__offer{
     width: 80%;
     
   }
-  .header__offer_color-accent{
+  .description__offer_color-accent{
     font-weight: 700;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
@@ -193,14 +194,14 @@ transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   
 
 
-.header__text-content{
+.description__text-content{
   width: 40%;
   margin-left: 11px;
   
   
   
 }
-.header__btn{
+.description__btn{
   margin-left: 0;
   margin-right: 0;
   padding: 22px 78px 23px 78px;
@@ -211,24 +212,24 @@ transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   
   
 }
-.header__text{
+.description__text{
   margin: 0;
   font-weight: 600;
   text-align: left;
   max-width: 90%;
   
 }  
-.header__img{
+.description__img{
   display: none;
 }
-.header__img2 {
+.description__img2 {
   display: flex;
    order: 2;
    width: 50%;
    
 }
 
-.header__img2 img{
+.description__img2 img{
  
   position: relative;
   width: 120%;
@@ -258,7 +259,7 @@ transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   
 }
 
-.header__content{
+.description__content{
   margin: 0 auto;
   width: 1280px;
   align-items: center;
@@ -373,7 +374,7 @@ transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 
-.header__title {
+.description__title {
   width: 653px;;
   font-size: 36px;
   font-weight: 700;
@@ -382,10 +383,10 @@ transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   
 }
 
-.header__content{
+.description__content{
   
 }
-.header__offer{
+.description__offer{
   
   
   font-size: 16px;
@@ -396,21 +397,21 @@ transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   
 }
 
-.header__btn{
+.description__btn{
   margin-bottom: 20px;
 }
 
-.header__offer_color-accent{
+.description__offer_color-accent{
   font-weight: 700;
   
 }
 
-.header__text{
+.description__text{
   
   font-size: 14px;
 }
 
-.header__img2{
+.description__img2{
  
   position: relative;
   left: -30px;
@@ -418,7 +419,7 @@ transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   width: 50%;
 }
 
-.header__img2 img{
+.description__img2 img{
  
   
   width: 100%;
