@@ -114,13 +114,13 @@ img .header__nav-item2{
 }
 
 .header__burger-list li {
-  padding: 28px;
-  width: 161px; 
+ 
   text-align: center;
   
 }
 
 .header__burger-list a {
+  display: inline-block;
   text-decoration: none;
   font-family: Montserrat;
   font-size: 14px;
