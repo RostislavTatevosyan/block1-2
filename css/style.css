@@ -6,11 +6,9 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
-}
-
-main{
   overflow: hidden;
 }
+
 
 .description__title_color-accent, .description__offer_color-accent, .description__text_color-accent{
   color: var(--color-accent);
