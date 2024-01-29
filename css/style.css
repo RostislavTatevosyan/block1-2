@@ -73,6 +73,102 @@ img .header__nav-item2{
   background-color: #FFC0CB;
 }
 
+
+
+
+.header__burger-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 62px;
+  left: 0;
+  width: 360px;
+  height: calc(100vh - 62px);
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.header__close-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+}
+
+.header__burger-list {
+ 
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-bottom: 179px;
+}
+
+.header__burger-list li {
+  padding: 10px;
+  width: 161px; 
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.header__burger-list a {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  
+  color: #2A2367;
+}
+
+.header__contact-info {
+  list-style: none;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px;
+  color: #6B5AF9;
+  
+}
+
+.header__contact-info a{
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  color: #6B5AF9;
+}
+
+.header__contact-info li {
+  
+  text-align: center;
+}
+.header__contact-info li:first-child {
+  margin-bottom: 32px;
+}
+
+
+.filter{
+  position: fixed;
+  top: 62px;
+  left: 0;
+  width: 100vw;
+  height: calc(100vh - 62px);
+  background: rgba(163, 161, 161, 0.85);
+  backdrop-filter: blur(2px);
+ 
+  z-index: 9998;
+
+}
+
+
+
+
+
 .description__text-content{
   display: flex;
   flex-direction: column;
@@ -96,6 +192,8 @@ img .header__nav-item2{
 
 .description__img img{
   width: 100%;
+  
+  
 }
 
 .description__offer{
@@ -383,9 +481,7 @@ transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   
 }
 
-.description__content{
-  
-}
+
 .description__offer{
   
   
@@ -423,6 +519,10 @@ transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
  
   
   width: 100%;
+}
+
+.filter, .header__burger-menu {
+  display: none;
 }
   
 }
