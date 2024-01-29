@@ -116,17 +116,18 @@ img .header__nav-item2{
 .header__burger-list li {
  
   text-align: center;
+  padding: 28px 28px;
+  width: 161px;
   
 }
 
 .header__burger-list a {
-  display: inline-block;
+  
   text-decoration: none;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 700;
-  padding: 28px 0;
-  width: 161px;
+  
   
   color: #2A2367;
 }
