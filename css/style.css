@@ -6,8 +6,9 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
-  overflow: hidden;
+  position: fixed;
 }
+
 
 
 .description__title_color-accent, .description__offer_color-accent, .description__text_color-accent{
