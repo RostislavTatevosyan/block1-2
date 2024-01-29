@@ -114,10 +114,10 @@ img .header__nav-item2{
 }
 
 .header__burger-list li {
-  padding: 10px;
+  padding: 28px;
   width: 161px; 
   text-align: center;
-  margin-bottom: 8px;
+  
 }
 
 .header__burger-list a {
@@ -134,7 +134,7 @@ img .header__nav-item2{
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 700;
-  padding: 10px;
+  
   color: #6B5AF9;
   
 }
@@ -143,6 +143,7 @@ img .header__nav-item2{
   text-decoration: none;
   font-family: Montserrat;
   font-size: 18px;
+  padding: 28p 0px;
   font-weight: 700;
   color: #6B5AF9;
 }
